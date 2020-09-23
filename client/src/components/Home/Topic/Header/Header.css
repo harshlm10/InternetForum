@@ -1,0 +1,4 @@
+.NavFeed,.NavNotification,.NavMessage,.NavCreateTopic{
+  font-weight: bolder;
+  border-bottom: 2px solid coral;
+}

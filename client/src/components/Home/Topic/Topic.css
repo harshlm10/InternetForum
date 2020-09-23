@@ -1,0 +1,56 @@
+.InnerContainer{
+    display: flex;
+    flex-direction: column;
+}
+.TopicHeader{
+    display: flex;
+    border: 1px solid black;
+    padding : 10px 0px 0px 0px;
+    width: 575px;
+    justify-content: space-between;
+}
+.MessageBody{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 450px;
+}
+.SenderText{
+    display: flex;
+    justify-content: flex-start;
+}
+.ReceiverText{
+    display: flex;
+    justify-content: flex-end;
+}
+.SendMessage{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 0px 0px;
+    width: 575px;
+}
+.form {
+    display: flex;
+    border-top: 2px solid #D3D3D3;
+  }
+  .input {
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em;
+  }
+  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  .sendButton {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+  }
